@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<!-- link rel="stylesheet" href="assets/css/materialize.min.css" /-->
+	<script src="assets/js/materialize.min.js"></script>
+	<title>TP JEE</title>
+</head>
+<body>
+	<form action="main" method="post">
+		<fieldset>
+			<legend>Informations personnelles :</legend>
+			Nom : <input name="nom" required> <br>
+			Prenom : <input name="prenom" required> <br>
+			Sexe : <input type="radio" name="sexe" value="F"> F <input type="radio" name="sexe" value="M"> M <br>
+			Loisirs : 
+				<input type="checkbox" name="loisirs" value="Voyage"> Voyage
+				<input type="checkbox" name="loisirs" value="Lecture"> Lecture
+				<input type="checkbox" name="loisirs" value="Sport"> Sport <br>
+			<input type="submit">
+		</fieldset>
+		
+	</form>
+</body>
+</html>
