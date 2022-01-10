@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comptes>
+	<user login="Imad123">
+		<nom>Mourabiti</nom>
+		<prenom>Imad</prenom>
+		<email>mourabiti.imad@gmail.com</email>
+		<password>1234</password>
+		<role>admin</role>
+	</user>
+	<user login="Imane123">
+		<nom>Mourabiti</nom>
+		<prenom>Imane</prenom>
+		<email>mourabiti.imane@gmail.com</email>
+		<password>1234</password>
+		<role>ordinaire</role>
+	</user>
+</comptes>
